@@ -1,0 +1,275 @@
+/*  GENERAL */ 
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "comic sans ms", sans-serif;
+    font-size: 12px;
+    background-color: floralwhite;  
+} 
+#mainpage {
+    width: 970px;
+    height: 100%;
+    background-color: #E5DFE3;
+    margin-left: 170px; 
+    right: 170px; 
+    display: block; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    box-shadow: 1px 1px 2px black; 
+} 
+/*ACCUEIL*/
+.blocacceuil {
+    font-size: 20px;
+    color: darksalmon;
+    margin: 12px 0 7px 0;
+    text-decoration: none;
+}
+.blocacceuil: hover {
+    color: coral;
+}
+.blocacceuil : visited {
+    color: darksalmon;
+}
+/* HEADER */
+#imgheader {
+    width: 100%;
+    height: 51px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+#header {
+    position: fixed;
+    background-image: url(../images/web/header.jpg);
+    width: 100%;
+    height: 51px;
+}
+span { 
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+#textheader {
+    font-size: 34px;
+    text-align: center; 
+    color: crimson;
+    text-shadow: 1px 1px 1px grey 
+}
+/* NAVIGATION */
+ li {
+    margin: 0;
+    padding: 0 20px;
+    display: table;
+    list-style: none;
+    font-size: 22px;
+    font-family: "comic sans ms", sans-serif; 
+    float: right;
+}
+a:link {color: brown}
+a:visited {color:brown}
+a:hover {color: #DF4949}
+a:active {color: brown}
+#menu {
+    width: 970px;
+    height: 50px;
+    background-color: #aca7aa;
+    margin-left: 170px; 
+    right: 170px; 
+    display: block; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 2px black; 
+    text-align: center;
+}
+/* CV */ 
+.liste1 {
+    list-style-image: url(../images/web/PUCE2.png);
+    font-size: 24px;
+    color: brown;
+    padding-top: 20px;
+    text-align: center;
+    font-variant: small-caps;
+    margin-top: 30px; 
+    border-top-style: dashed;
+    border-top-color: crimson;
+    border-left-style: dashed;
+    border-left-color: darksalmon; 
+    border-top-padding-top : 40px; 
+    border-width: 2px;
+    border-top-left-radius: 5px;
+}
+h1 {
+    font-size: 16px;
+    color: darkgoldenrod;
+    margin: 12px 0 7px 0;
+    text-decoration: none;
+    margin-right: 100px;
+    margin-left: 100px;
+} 
+.descr {
+    font-style: italic;
+    font-size: 13px;
+    color: dimgrey;
+    margin-right: 130px;
+    margin-left: 130px;
+}
+.liste2 {
+    list-style-image: url(../images/web/PUCE.png);
+    color: darkcyan;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.liste3 {
+    list-style-image: url(../images/web/PUCE.png);
+    color: darkolivegreen;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.liste4 {
+    list-style-image: url(../images/web/PUCE.png);
+    color: darkslategray; 
+    margin-right: 160px;
+    margin-left: 160px;
+}
+/* FORMULAIRE CONTACT */ 
+#contact1 {
+    text-align: center;
+    color: brown;
+    font-variant: small-caps;
+    font-size: 26px;
+    font-family: "Bradley Hand ITC", "comic sans ms", sans-serif;
+    font-weight: bold;
+}
+form {
+  position: relative;
+  width  : 740px;
+  height : 498px;
+  margin : 0 auto;
+  background: url(../images/web/background-contact.jpg);
+}
+h2 {
+  position : absolute;
+  left : 415px;
+  top  : 175px;
+  font-family : "Bradley Hand ITC", "comic sans ms", sans-serif;
+  font-variant: small-caps;
+    color: grey;
+}
+#from {
+  position: absolute;
+  left : 380px;
+  top  : 245px;
+  font-variant: small-caps;
+  font-family: "Bradley Hand ITC", "comic sans ms", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+    color: grey;
+}
+#reply {
+  position: absolute;
+  left : 380px;
+  top  : 295px;
+  font-variant: small-caps;
+  font-family: "Bradley Hand ITC", "comic sans ms", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+    color: grey;
+}
+#message {
+  position: absolute;
+  left : 20px;
+  top  : 70px;
+  font-variant: small-caps;
+  font-family: "Bradley Hand ITC", "comic sans ms", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+    color: grey;
+}
+input, textarea {
+  font-family: "Bradley Hand ITC", "comic sans ms", sans-serif;
+  border  : none;
+  padding : 0 10px;
+  margin  : 0;
+  width   : 200px;
+  background: none;
+}
+input:focus, textarea:focus {
+  background : rgba(0,0,0,.1);
+  border-radius: 5px;
+  outline : none;
+}
+input:hover, textarea:hover {
+  background : rgba(0,0,0,.1);
+  border-radius: 5px;
+  outline : none;
+}
+textarea {
+  display : block;
+  padding : 10px;
+  margin  : 10px 0 0 -10px;
+  width   : 340px;
+  height  : 360px;
+  resize  : none;
+  overflow: auto;
+}
+button {
+  position : absolute;
+  left : 440px;
+  top : 360px;
+  padding : 5px;
+  font-family: "Bradley Hand ITC", "comic sans ms", sans-serif;
+  border : 1px solid brown;
+  border-radius: 5px;
+  font-size: 14px;
+}
+button:hover,
+button:focus {
+  outline   : none;
+  background-color: lightgrey;
+    color: dimgrey
+}
+/*PRESENTATION*/
+#titrepres {
+    font-size: 20px;
+    color: darkgoldenrod;
+    text-align: center;
+    text-decoration: none;
+}
+#blabla {
+    position:relative; width:180px; padding-right:120px; text-align:right;
+}
+#profil {
+    position: absolute;
+    margin: 2px, 5px, 5px, 0;
+    text-align: center;
+}
+#presentation {
+    text-align: center;
+    font-family: "comic sans ms", sans-serif;
+    font-size: 14px;
+    color: grey;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+/*REALISATIONS*/
+.rea {
+    border-style: dashed;
+    border-width: 1px;
+    width: 300px;
+    height: 400px;
+    background-color: floralwhite;
+    margin: 5px 5px 5px 5px;
+    right: 5px; 
+    display: block; 
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    float: left;
+}
