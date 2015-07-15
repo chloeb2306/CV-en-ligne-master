@@ -7,12 +7,51 @@ body {
     font-size: 12px;
     background-color: floralwhite;  
 } 
-#mainpage {
+#mainpage1 {
     width: 970px;
     height: 100%;
-    background-color: #E5DFE3;
-    margin-left: 170px; 
-    right: 170px; 
+    background-color: #C1A59C;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    box-shadow: 1px 1px 2px black; 
+} 
+#mainpage2 {
+    width: 970px;
+    height: 100%;
+    background-color: #D8B9AF;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    box-shadow: 1px 1px 2px black; 
+} 
+#mainpage3 {
+    width: 970px;
+    height: 100%;
+    background-color: #FBD8CC;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    box-shadow: 1px 1px 2px black; 
+} 
+#mainpage4 {
+    width: 970px;
+    height: 100%;
+    background-color: #FFDBCF;
+    margin-left: auto; 
+    margin-right: auto; 
     display: block; 
     padding-left: 20px;
     padding-right: 20px;
@@ -249,14 +288,30 @@ a:active {color: brown}
     border-style: dashed;
     border-width: 1px;
     width: 300px;
-    height: 400px;
+    height: 455px;
     background-color: floralwhite;
     margin: 5px 5px 5px 5px;
-    right: 5px; 
     display: block; 
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px; 
     float: left;
+}
+.descrrea {
+    font-style: italic;
+    font-size: 14px;
+    color: dimgrey;
+}
+.listerea {
+    list-style-image: url(../images/web/PUCE.png);
+    color: darkcyan;
+    font-size : 16px;
+    line-height: 2; 
+}
+.titrerea {
+    font-size: 16px;
+    color: darkgoldenrod;
+    text-decoration: none;
+    text-align: center;
 }
