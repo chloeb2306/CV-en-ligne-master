@@ -58,10 +58,28 @@ span {
 }
 
 /* CV */ 
+.qualites {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height : 130px;
+}
+.listecomp {
+    color: white;
+    margin:10px;
+    width:153px;
+    background:#F1605B;
+    height:100px;
+    text-align:center;
+    border-radius:100px;
+    line-height: 90px;
+    float: left;
+}
 .liste1 {
+    background-color: #F1605B;
     list-style-image: url(../images/web/PUCE2.png);
     font-size: 24px;
-    color: ##EBC257;
+    color: white;
     padding-top: 20px;
     text-align: center;
     font-variant: small-caps;
@@ -71,7 +89,7 @@ span {
     border-left-style: dashed;
     border-left-color: darksalmon; 
     border-top-padding-top : 40px; 
-    border-width: 2px;
+    border-width: 3px;
     border-top-left-radius: 5px;
 }
 h1 {
@@ -85,7 +103,7 @@ h1 {
 .descr {
     font-style: italic;
     font-size: 15px;
-    color: ##EBC257;
+    color: #EBC257;
     margin-right: 130px;
     margin-left: 130px;
 } 
@@ -103,20 +121,13 @@ h1 {
     margin-right: 160px;
     margin-left: 160px;
 }
-.liste4 {
-    list-style-image: url(../images/web/PUCE.png);
-    color: #AD5B59; 
-    font-size: 17px;
-    margin-right: 160px;
-    margin-left: 160px;
-}
 /* FORMULAIRE CONTACT */ 
 #contact1 {
     text-align: center;
     color: #F1605B;
     font-variant: small-caps;
     font-size: 26px;
-    font-family: "Bradley Hand ITC", "comic sans ms", sans-serif;
+    font-family: "comic sans ms", sans-serif;
     font-weight: bold;
 }
 #contact {
@@ -133,7 +144,7 @@ h2 {
   position : absolute;
   left : 415px;
   top  : 175px;
-  font-family : "Bradley Hand ITC", "comic sans ms", sans-serif;
+  font-family : "comic sans ms", sans-serif;
   font-variant: small-caps;
     color: grey;
 }
@@ -142,7 +153,7 @@ h2 {
   left : 380px;
   top  : 245px;
   font-variant: small-caps;
-  font-family: "Bradley Hand ITC", "comic sans ms", sans-serif;
+  font-family: "comic sans ms", sans-serif;
   font-weight: bold;
   font-size: 16px;
     color: grey;
@@ -152,7 +163,7 @@ h2 {
   left : 380px;
   top  : 295px;
   font-variant: small-caps;
-  font-family: "Bradley Hand ITC", "comic sans ms", sans-serif;
+  font-family: "comic sans ms", sans-serif;
   font-weight: bold;
   font-size: 16px;
     color: grey;
@@ -162,13 +173,13 @@ h2 {
   left : 20px;
   top  : 70px;
   font-variant: small-caps;
-  font-family: "Bradley Hand ITC", "comic sans ms", sans-serif;
+  font-family: "comic sans ms", sans-serif;
   font-weight: bold;
   font-size: 16px;
     color: grey;
 }
 input, textarea {
-  font-family: "Bradley Hand ITC", "comic sans ms", sans-serif;
+  font-family: "comic sans ms", sans-serif;
   border  : none;
   padding : 0 10px;
   margin  : 0;
@@ -262,43 +273,28 @@ a:active {color: #F1605B}
     border-width: 1px;
     width: 300px;
     height: 455px;
-    background-color: floralwhite;
-    margin: 5px 5px 5px 5px;
+    background-color: #EBC257;
+    margin: 4px;
     display: inline-block; 
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px; 
-}
-.rea {
-    border-style: dashed;
-    border-width: 1px;
-    width: 300px;
-    height: 455px;
-    background-color: floralwhite;
-    margin: 5px 5px 5px 5px;
-    display: inline-block; 
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px; 
+    padding: 5px;
 }
 .descrrea {
     font-style: italic;
     font-size: 14px;
-    color: grey;
+    color: #F1605B;
 }
 .listerea {
     list-style-image: url(../images/web/PUCE.png);
-    color: #DCA17C;
+    color: white;
     font-size : 16px;
     line-height: 2; 
 }
 .titrerea {
     font-size: 16px;
-    color: #EBC257;
+    color: white;
     text-decoration: none;
     text-align: center;
+    font-weight: bold;
 }
 
 /*SLIDER*/
